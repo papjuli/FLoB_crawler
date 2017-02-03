@@ -13,7 +13,7 @@ In order to run these, you need to have a Google API key and the following pytho
 Example:
 
 ```
-$ python flob_crawler.py $GOOGLE_API_KEY data.tsv
+$ python flob_crawler.py $GOOGLE_API_KEY data_1.tsv
 ```
 ```
 $ python get_missing_episodes.py $GOOGLE_API_KEY missing_ep_list.json data_so_far.tsv data.tsv
